@@ -1,0 +1,14 @@
+{
+  "button-next": "next",
+  "button-previous": "previous",
+  "button-order": "order",
+  "warning-or": "or",
+  "warning-choose": "You choose",
+  "warning-at-step": "at step",
+  "warning-title": "Those options are available only if:",
+  "warning-no-options-title": "No options available",
+  "title-summary": "Choosen options",
+  "size-summary": "Size",
+  "size-selector": "Size selector",
+  "step-title-select": "Select your option for"
+}

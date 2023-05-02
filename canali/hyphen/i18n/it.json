@@ -1,0 +1,14 @@
+{
+  "button-next": "Successivo",
+  "button-previous": "Precedente",
+  "button-order": "Ordina",
+  "warning-or": "o",
+  "warning-choose": "Ha scelto",
+  "warning-at-step": "al passo",
+  "warning-title": "Queste opzioni sono disponibili solo se:",
+  "warning-no-options-title": "Non sono presenti opzioni configurabili",
+  "title-summary": "Opzioni scelte",
+  "size-summary": "Taglia",
+  "size-selector": "Selettore delle taglie",
+  "step-title-select": "Scegli un'opzione per"
+}
