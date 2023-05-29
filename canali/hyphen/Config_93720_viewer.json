@@ -25,11 +25,7 @@
       "model_code": "93720",
       "z-index": 2,
       "layerType": "accessori",
-      "views": [
-        "back",
-        "front",
-        "side"
-      ],
+      "views": ["back", "front", "side"],
       "options": [
         {
           "id": "Accessori_0",
@@ -167,11 +163,7 @@
       "model_code": "93720",
       "z-index": 0,
       "layerType": "fabric",
-      "views": [
-        "back",
-        "front",
-        "side"
-      ],
+      "views": ["back", "front", "side"],
       "options": [
         {
           "id": "fabric_0",
@@ -192,7 +184,7 @@
               "view": "side"
             }
           ],
-          "icon": "93720/BASE/PD00018/Preview/300_Preview.webp"
+          "icon": "93720/Base/PD00018/Preview/300_Preview.webp"
         },
         {
           "id": "fabric_1",
@@ -213,7 +205,7 @@
               "view": "side"
             }
           ],
-          "icon": "93720/BASE/PX01028/Preview/301_Preview.webp"
+          "icon": "93720/Base/PX01028/Preview/301_Preview.webp"
         }
       ],
       "hideOnNextSteps": true
@@ -225,12 +217,7 @@
       "model_code": "93720",
       "z-index": 1,
       "layerType": "fabric-color",
-      "views": [
-        "back",
-        "detail",
-        "front",
-        "side"
-      ],
+      "views": ["back", "detail", "front", "side"],
       "options": [
         {
           "id": "Base_0",

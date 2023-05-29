@@ -29,13 +29,7 @@
       "model_code": "O10378",
       "z-index": 0,
       "layerType": "fabric",
-      "views": [
-        "back",
-        "detail1",
-        "detail2",
-        "front",
-        "side"
-      ],
+      "views": ["back", "detail1", "detail2", "front", "side"],
       "options": [
         {
           "id": "fabric_0",
@@ -64,7 +58,7 @@
               "view": "side"
             }
           ],
-          "icon": "O10378/BASE/SR01620/Preview/202_Preview.webp"
+          "icon": "O10378/Base/SR01620/Preview/202_Preview.webp"
         },
         {
           "id": "fabric_1",
@@ -93,7 +87,7 @@
               "view": "side"
             }
           ],
-          "icon": "O10378/BASE/SX02197/Preview/101_Preview.webp"
+          "icon": "O10378/Base/SX02197/Preview/101_Preview.webp"
         },
         {
           "id": "fabric_2",
@@ -122,7 +116,7 @@
               "view": "side"
             }
           ],
-          "icon": "O10378/BASE/SX02571/Preview/111_Preview.webp"
+          "icon": "O10378/Base/SX02571/Preview/111_Preview.webp"
         }
       ],
       "hideOnNextSteps": true
@@ -134,13 +128,7 @@
       "model_code": "O10378",
       "z-index": 1,
       "layerType": "fabric-color",
-      "views": [
-        "back",
-        "detail1",
-        "detail2",
-        "front",
-        "side"
-      ],
+      "views": ["back", "detail1", "detail2", "front", "side"],
       "options": [
         {
           "id": "Base_0",
@@ -413,11 +401,7 @@
       "model_code": "O10378",
       "z-index": 4,
       "layerType": "bottone",
-      "views": [
-        "detail1",
-        "front",
-        "side"
-      ],
+      "views": ["detail1", "front", "side"],
       "options": [
         {
           "id": "Bottone_0",
@@ -471,9 +455,7 @@
       "model_code": "O10378",
       "z-index": 2,
       "layerType": "fodera",
-      "views": [
-        "detail1"
-      ],
+      "views": ["detail1"],
       "options": [
         {
           "id": "Fodera_0",
@@ -550,9 +532,7 @@
       "model_code": "O10378",
       "z-index": 3,
       "layerType": "suede",
-      "views": [
-        "detail2"
-      ],
+      "views": ["detail2"],
       "options": [
         {
           "id": "Suede_0",

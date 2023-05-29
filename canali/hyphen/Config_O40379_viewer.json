@@ -29,13 +29,7 @@
       "model_code": "O40379",
       "z-index": 0,
       "layerType": "fabric",
-      "views": [
-        "back",
-        "detail2",
-        "front",
-        "side",
-        "detail1"
-      ],
+      "views": ["back", "detail2", "front", "side", "detail1"],
       "options": [
         {
           "id": "fabric_0",
@@ -60,7 +54,7 @@
               "view": "side"
             }
           ],
-          "icon": "O40379/BASE/SR01620/Preview/202_Preview.webp"
+          "icon": "O40379/Base/SR01620/Preview/202_Preview.webp"
         },
         {
           "id": "fabric_1",
@@ -89,7 +83,7 @@
               "view": "side"
             }
           ],
-          "icon": "O40379/BASE/SX02197/Preview/101_Preview.webp"
+          "icon": "O40379/Base/SX02197/Preview/101_Preview.webp"
         },
         {
           "id": "fabric_2",
@@ -118,7 +112,7 @@
               "view": "side"
             }
           ],
-          "icon": "O40379/BASE/SX02571/Preview/111_Preview.webp"
+          "icon": "O40379/Base/SX02571/Preview/111_Preview.webp"
         }
       ],
       "hideOnNextSteps": true
@@ -130,13 +124,7 @@
       "model_code": "O40379",
       "z-index": 1,
       "layerType": "fabric-color",
-      "views": [
-        "back",
-        "detail2",
-        "front",
-        "side",
-        "detail1"
-      ],
+      "views": ["back", "detail2", "front", "side", "detail1"],
       "options": [
         {
           "id": "Base_0",
@@ -397,11 +385,7 @@
       "model_code": "O40379",
       "z-index": 2,
       "layerType": "fodera",
-      "views": [
-        "detail1",
-        "front",
-        "side"
-      ],
+      "views": ["detail1", "front", "side"],
       "options": [
         {
           "id": "Fodera_0",
@@ -518,9 +502,7 @@
       "model_code": "O40379",
       "z-index": 3,
       "layerType": "suede",
-      "views": [
-        "detail2"
-      ],
+      "views": ["detail2"],
       "options": [
         {
           "id": "Suede_0",

@@ -25,12 +25,7 @@
       "model_code": "O70312",
       "z-index": 0,
       "layerType": "fabric",
-      "views": [
-        "back",
-        "detail1",
-        "front",
-        "side"
-      ],
+      "views": ["back", "detail1", "front", "side"],
       "options": [
         {
           "id": "fabric_0",
@@ -55,7 +50,7 @@
               "view": "side"
             }
           ],
-          "icon": "O70312/BASE/LE00219/Preview/101_Preview.webp"
+          "icon": "O70312/Base/LE00219/Preview/101_Preview.webp"
         },
         {
           "id": "fabric_1",
@@ -80,7 +75,7 @@
               "view": "side"
             }
           ],
-          "icon": "O70312/BASE/LX00195/Preview/304_Preview.webp"
+          "icon": "O70312/Base/LX00195/Preview/304_Preview.webp"
         }
       ],
       "hideOnNextSteps": true
@@ -92,12 +87,7 @@
       "model_code": "O70312",
       "z-index": 1,
       "layerType": "fabric-color",
-      "views": [
-        "back",
-        "detail1",
-        "front",
-        "side"
-      ],
+      "views": ["back", "detail1", "front", "side"],
       "options": [
         {
           "id": "Base_0",
@@ -237,12 +227,7 @@
       "model_code": "O70312",
       "z-index": 3,
       "layerType": "bottoni",
-      "views": [
-        "back",
-        "detail1",
-        "front",
-        "side"
-      ],
+      "views": ["back", "detail1", "front", "side"],
       "options": [
         {
           "id": "Bottoni_0",
@@ -382,11 +367,7 @@
       "model_code": "O70312",
       "z-index": 2,
       "layerType": "fodera",
-      "views": [
-        "detail1",
-        "front",
-        "side"
-      ],
+      "views": ["detail1", "front", "side"],
       "options": [
         {
           "id": "Fodera_0",

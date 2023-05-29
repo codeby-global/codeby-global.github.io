@@ -25,11 +25,7 @@
       "model_code": "SMC0843",
       "z-index": 0,
       "layerType": "fabric",
-      "views": [
-        "back",
-        "front",
-        "side"
-      ],
+      "views": ["back", "front", "side"],
       "options": [
         {
           "id": "fabric_0",
@@ -50,7 +46,7 @@
               "view": "side"
             }
           ],
-          "icon": "SMC0843/BASE/MK00999/Preview/003_Preview.webp"
+          "icon": "SMC0843/Base/MK00999/Preview/003_Preview.webp"
         },
         {
           "id": "fabric_1",
@@ -71,7 +67,7 @@
               "view": "side"
             }
           ],
-          "icon": "SMC0843/BASE/MX01046/Preview/100_Preview.webp"
+          "icon": "SMC0843/Base/MX01046/Preview/100_Preview.webp"
         }
       ],
       "hideOnNextSteps": true
@@ -83,12 +79,7 @@
       "model_code": "SMC0843",
       "z-index": 1,
       "layerType": "fabric-color",
-      "views": [
-        "back",
-        "detail",
-        "front",
-        "side"
-      ],
+      "views": ["back", "detail", "front", "side"],
       "options": [
         {
           "id": "Base_0",
