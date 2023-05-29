@@ -1,0 +1,600 @@
+{
+  "views": [
+    {
+      "id": "front",
+      "label": "Front"
+    },
+    {
+      "id": "side",
+      "label": "Side"
+    },
+    {
+      "id": "back",
+      "label": "Back"
+    },
+    {
+      "id": "detail1",
+      "label": "Detail 1"
+    },
+    {
+      "id": "detail2",
+      "label": "Detail 2"
+    }
+  ],
+  "layers": [
+    {
+      "label": null,
+      "description": null,
+      "id": "fabric",
+      "model_code": "O10378",
+      "z-index": 0,
+      "layerType": "fabric",
+      "views": [
+        "back",
+        "detail1",
+        "detail2",
+        "front",
+        "side"
+      ],
+      "options": [
+        {
+          "id": "fabric_0",
+          "label": null,
+          "code": "SR01620",
+          "description": null,
+          "src": [
+            {
+              "asset": "O10378/Base/SR01620/202_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "O10378/Base/SR01620/202_Detail1_0.webp",
+              "view": "detail1"
+            },
+            {
+              "asset": "O10378/Base/SR01620/202_Detail2_0.webp",
+              "view": "detail2"
+            },
+            {
+              "asset": "O10378/Base/SR01620/202_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "O10378/Base/SR01620/202_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "O10378/BASE/SR01620/Preview/202_Preview.webp"
+        },
+        {
+          "id": "fabric_1",
+          "label": null,
+          "code": "SX02197",
+          "description": null,
+          "src": [
+            {
+              "asset": "O10378/Base/SX02197/101_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "O10378/Base/SX02197/101_Detail1_0.webp",
+              "view": "detail1"
+            },
+            {
+              "asset": "O10378/Base/SX02197/101_Detail2_0.webp",
+              "view": "detail2"
+            },
+            {
+              "asset": "O10378/Base/SX02197/101_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "O10378/Base/SX02197/101_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "O10378/BASE/SX02197/Preview/101_Preview.webp"
+        },
+        {
+          "id": "fabric_2",
+          "label": null,
+          "code": "SX02571",
+          "description": null,
+          "src": [
+            {
+              "asset": "O10378/Base/SX02571/111_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "O10378/Base/SX02571/111_Detail1_0.webp",
+              "view": "detail1"
+            },
+            {
+              "asset": "O10378/Base/SX02571/111_Detail2_0.webp",
+              "view": "detail2"
+            },
+            {
+              "asset": "O10378/Base/SX02571/111_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "O10378/Base/SX02571/111_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "O10378/BASE/SX02571/Preview/111_Preview.webp"
+        }
+      ],
+      "hideOnNextSteps": true
+    },
+    {
+      "label": "Base",
+      "description": null,
+      "id": "Base",
+      "model_code": "O10378",
+      "z-index": 1,
+      "layerType": "fabric-color",
+      "views": [
+        "back",
+        "detail1",
+        "detail2",
+        "front",
+        "side"
+      ],
+      "options": [
+        {
+          "id": "Base_0",
+          "label": "SR01620_202",
+          "code": "SR01620_202",
+          "description": "SR01620_202 description",
+          "src": [
+            {
+              "asset": "O10378/Base/SR01620/202_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "O10378/Base/SR01620/202_Detail1_0.webp",
+              "view": "detail1"
+            },
+            {
+              "asset": "O10378/Base/SR01620/202_Detail2_0.webp",
+              "view": "detail2"
+            },
+            {
+              "asset": "O10378/Base/SR01620/202_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "O10378/Base/SR01620/202_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "O10378/Base/SR01620/Preview/202_Preview.webp"
+        },
+        {
+          "id": "Base_1",
+          "label": "SR01620_304",
+          "code": "SR01620_304",
+          "description": "SR01620_304 description",
+          "src": [
+            {
+              "asset": "O10378/Base/SR01620/304_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "O10378/Base/SR01620/304_Detail1_0.webp",
+              "view": "detail1"
+            },
+            {
+              "asset": "O10378/Base/SR01620/304_Detail2_0.webp",
+              "view": "detail2"
+            },
+            {
+              "asset": "O10378/Base/SR01620/304_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "O10378/Base/SR01620/304_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "O10378/Base/SR01620/Preview/304_Preview.webp"
+        },
+        {
+          "id": "Base_2",
+          "label": "SR01620_307",
+          "code": "SR01620_307",
+          "description": "SR01620_307 description",
+          "src": [
+            {
+              "asset": "O10378/Base/SR01620/307_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "O10378/Base/SR01620/307_Detail1_0.webp",
+              "view": "detail1"
+            },
+            {
+              "asset": "O10378/Base/SR01620/307_Detail2_0.webp",
+              "view": "detail2"
+            },
+            {
+              "asset": "O10378/Base/SR01620/307_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "O10378/Base/SR01620/307_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "O10378/Base/SR01620/Preview/307_Preview.webp"
+        },
+        {
+          "id": "Base_3",
+          "label": "SX02197_101",
+          "code": "SX02197_101",
+          "description": "SX02197_101 description",
+          "src": [
+            {
+              "asset": "O10378/Base/SX02197/101_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "O10378/Base/SX02197/101_Detail1_0.webp",
+              "view": "detail1"
+            },
+            {
+              "asset": "O10378/Base/SX02197/101_Detail2_0.webp",
+              "view": "detail2"
+            },
+            {
+              "asset": "O10378/Base/SX02197/101_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "O10378/Base/SX02197/101_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "O10378/Base/SX02197/Preview/101_Preview.webp"
+        },
+        {
+          "id": "Base_4",
+          "label": "SX02197_201",
+          "code": "SX02197_201",
+          "description": "SX02197_201 description",
+          "src": [
+            {
+              "asset": "O10378/Base/SX02197/201_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "O10378/Base/SX02197/201_Detail1_0.webp",
+              "view": "detail1"
+            },
+            {
+              "asset": "O10378/Base/SX02197/201_Detail2_0.webp",
+              "view": "detail2"
+            },
+            {
+              "asset": "O10378/Base/SX02197/201_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "O10378/Base/SX02197/201_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "O10378/Base/SX02197/Preview/201_Preview.webp"
+        },
+        {
+          "id": "Base_5",
+          "label": "SX02197_302",
+          "code": "SX02197_302",
+          "description": "SX02197_302 description",
+          "src": [
+            {
+              "asset": "O10378/Base/SX02197/302_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "O10378/Base/SX02197/302_Detail1_0.webp",
+              "view": "detail1"
+            },
+            {
+              "asset": "O10378/Base/SX02197/302_Detail2_0.webp",
+              "view": "detail2"
+            },
+            {
+              "asset": "O10378/Base/SX02197/302_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "O10378/Base/SX02197/302_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "O10378/Base/SX02197/Preview/302_Preview.webp"
+        },
+        {
+          "id": "Base_6",
+          "label": "SX02571_111",
+          "code": "SX02571_111",
+          "description": "SX02571_111 description",
+          "src": [
+            {
+              "asset": "O10378/Base/SX02571/111_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "O10378/Base/SX02571/111_Detail1_0.webp",
+              "view": "detail1"
+            },
+            {
+              "asset": "O10378/Base/SX02571/111_Detail2_0.webp",
+              "view": "detail2"
+            },
+            {
+              "asset": "O10378/Base/SX02571/111_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "O10378/Base/SX02571/111_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "O10378/Base/SX02571/Preview/111_Preview.webp"
+        },
+        {
+          "id": "Base_7",
+          "label": "SX02571_301",
+          "code": "SX02571_301",
+          "description": "SX02571_301 description",
+          "src": [
+            {
+              "asset": "O10378/Base/SX02571/301_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "O10378/Base/SX02571/301_Detail1_0.webp",
+              "view": "detail1"
+            },
+            {
+              "asset": "O10378/Base/SX02571/301_Detail2_0.webp",
+              "view": "detail2"
+            },
+            {
+              "asset": "O10378/Base/SX02571/301_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "O10378/Base/SX02571/301_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "O10378/Base/SX02571/Preview/301_Preview.webp"
+        },
+        {
+          "id": "Base_8",
+          "label": "SX02571_701",
+          "code": "SX02571_701",
+          "description": "SX02571_701 description",
+          "src": [
+            {
+              "asset": "O10378/Base/SX02571/701_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "O10378/Base/SX02571/701_Detail1_0.webp",
+              "view": "detail1"
+            },
+            {
+              "asset": "O10378/Base/SX02571/701_Detail2_0.webp",
+              "view": "detail2"
+            },
+            {
+              "asset": "O10378/Base/SX02571/701_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "O10378/Base/SX02571/701_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "O10378/Base/SX02571/Preview/701_Preview.webp"
+        }
+      ],
+      "hideOnNextSteps": false
+    },
+    {
+      "label": "Bottone",
+      "description": null,
+      "id": "Bottone",
+      "model_code": "O10378",
+      "z-index": 4,
+      "layerType": "bottone",
+      "views": [
+        "detail1",
+        "front",
+        "side"
+      ],
+      "options": [
+        {
+          "id": "Bottone_0",
+          "label": "MB1",
+          "code": "MB1",
+          "description": "MB1 description",
+          "src": [
+            {
+              "asset": "O10378/Bottone/MB1_Detail1_3.webp",
+              "view": "detail1"
+            },
+            {
+              "asset": "O10378/Bottone/MB1_Front_3.webp",
+              "view": "front"
+            },
+            {
+              "asset": "O10378/Bottone/MB1_Side_3.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "O10378/Bottone/Preview/MB1_Preview.webp"
+        },
+        {
+          "id": "Bottone_1",
+          "label": "MB2",
+          "code": "MB2",
+          "description": "MB2 description",
+          "src": [
+            {
+              "asset": "O10378/Bottone/MB2_Detail1_3.webp",
+              "view": "detail1"
+            },
+            {
+              "asset": "O10378/Bottone/MB2_Front_3.webp",
+              "view": "front"
+            },
+            {
+              "asset": "O10378/Bottone/MB2_Side_3.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "O10378/Bottone/Preview/MB2_Preview.webp"
+        }
+      ],
+      "hideOnNextSteps": false
+    },
+    {
+      "label": "Fodera",
+      "description": null,
+      "id": "Fodera",
+      "model_code": "O10378",
+      "z-index": 2,
+      "layerType": "fodera",
+      "views": [
+        "detail1"
+      ],
+      "options": [
+        {
+          "id": "Fodera_0",
+          "label": "MO1",
+          "code": "MO1",
+          "description": "MO1 description",
+          "src": [
+            {
+              "asset": "O10378/Fodera/MO1_Detail1_1.webp",
+              "view": "detail1"
+            }
+          ],
+          "icon": "O10378/Fodera/Preview/MO1_Preview.webp"
+        },
+        {
+          "id": "Fodera_1",
+          "label": "MO2",
+          "code": "MO2",
+          "description": "MO2 description",
+          "src": [
+            {
+              "asset": "O10378/Fodera/MO2_Detail1_1.webp",
+              "view": "detail1"
+            }
+          ],
+          "icon": "O10378/Fodera/Preview/MO2_Preview.webp"
+        },
+        {
+          "id": "Fodera_2",
+          "label": "MO3",
+          "code": "MO3",
+          "description": "MO3 description",
+          "src": [
+            {
+              "asset": "O10378/Fodera/MO3_Detail1_1.webp",
+              "view": "detail1"
+            }
+          ],
+          "icon": "O10378/Fodera/Preview/MO3_Preview.webp"
+        },
+        {
+          "id": "Fodera_3",
+          "label": "MO4",
+          "code": "MO4",
+          "description": "MO4 description",
+          "src": [
+            {
+              "asset": "O10378/Fodera/MO4_Detail1_1.webp",
+              "view": "detail1"
+            }
+          ],
+          "icon": "O10378/Fodera/Preview/MO4_Preview.webp"
+        },
+        {
+          "id": "Fodera_4",
+          "label": "MO5",
+          "code": "MO5",
+          "description": "MO5 description",
+          "src": [
+            {
+              "asset": "O10378/Fodera/MO5_Detail1_1.webp",
+              "view": "detail1"
+            }
+          ],
+          "icon": "O10378/Fodera/Preview/MO5_Preview.webp"
+        }
+      ],
+      "hideOnNextSteps": false
+    },
+    {
+      "label": "Suede",
+      "description": null,
+      "id": "Suede",
+      "model_code": "O10378",
+      "z-index": 3,
+      "layerType": "suede",
+      "views": [
+        "detail2"
+      ],
+      "options": [
+        {
+          "id": "Suede_0",
+          "label": "MS1",
+          "code": "MS1",
+          "description": "MS1 description",
+          "src": [
+            {
+              "asset": "O10378/Suede/MS1_Detail2_2.webp",
+              "view": "detail2"
+            }
+          ],
+          "icon": "O10378/Suede/Preview/MS1_Preview.webp"
+        },
+        {
+          "id": "Suede_1",
+          "label": "MS2",
+          "code": "MS2",
+          "description": "MS2 description",
+          "src": [
+            {
+              "asset": "O10378/Suede/MS2_Detail2_2.webp",
+              "view": "detail2"
+            }
+          ],
+          "icon": "O10378/Suede/Preview/MS2_Preview.webp"
+        },
+        {
+          "id": "Suede_2",
+          "label": "MS3",
+          "code": "MS3",
+          "description": "MS3 description",
+          "src": [
+            {
+              "asset": "O10378/Suede/MS3_Detail2_2.webp",
+              "view": "detail2"
+            }
+          ],
+          "icon": "O10378/Suede/Preview/MS3_Preview.webp"
+        }
+      ],
+      "hideOnNextSteps": false
+    }
+  ]
+}

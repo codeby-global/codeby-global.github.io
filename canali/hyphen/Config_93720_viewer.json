@@ -1,0 +1,339 @@
+{
+  "views": [
+    {
+      "id": "front",
+      "label": "Front"
+    },
+    {
+      "id": "side",
+      "label": "Side"
+    },
+    {
+      "id": "back",
+      "label": "Back"
+    },
+    {
+      "id": "detail",
+      "label": "Detail"
+    }
+  ],
+  "layers": [
+    {
+      "label": "Accessori",
+      "description": null,
+      "id": "Accessori",
+      "model_code": "93720",
+      "z-index": 2,
+      "layerType": "accessori",
+      "views": [
+        "back",
+        "front",
+        "side"
+      ],
+      "options": [
+        {
+          "id": "Accessori_0",
+          "label": "MF1",
+          "code": "MF1",
+          "description": "MF1 description",
+          "src": [
+            {
+              "asset": "93720/Accessori/MF1_Back_1.webp",
+              "view": "back"
+            },
+            {
+              "asset": "93720/Accessori/MF1_Front_1.webp",
+              "view": "front"
+            },
+            {
+              "asset": "93720/Accessori/MF1_Side_1.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "93720/Accessori/Preview/MF1_Preview.webp"
+        },
+        {
+          "id": "Accessori_1",
+          "label": "MF2",
+          "code": "MF2",
+          "description": "MF2 description",
+          "src": [
+            {
+              "asset": "93720/Accessori/MF2_Back_1.webp",
+              "view": "back"
+            },
+            {
+              "asset": "93720/Accessori/MF2_Front_1.webp",
+              "view": "front"
+            },
+            {
+              "asset": "93720/Accessori/MF2_Side_1.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "93720/Accessori/Preview/MF2_Preview.webp"
+        },
+        {
+          "id": "Accessori_2",
+          "label": "MF3",
+          "code": "MF3",
+          "description": "MF3 description",
+          "src": [
+            {
+              "asset": "93720/Accessori/MF3_Back_1.webp",
+              "view": "back"
+            },
+            {
+              "asset": "93720/Accessori/MF3_Front_1.webp",
+              "view": "front"
+            },
+            {
+              "asset": "93720/Accessori/MF3_Side_1.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "93720/Accessori/Preview/MF3_Preview.webp"
+        },
+        {
+          "id": "Accessori_3",
+          "label": "MF4",
+          "code": "MF4",
+          "description": "MF4 description",
+          "src": [
+            {
+              "asset": "93720/Accessori/MF4_Back_1.webp",
+              "view": "back"
+            },
+            {
+              "asset": "93720/Accessori/MF4_Front_1.webp",
+              "view": "front"
+            },
+            {
+              "asset": "93720/Accessori/MF4_Side_1.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "93720/Accessori/Preview/MF4_Preview.webp"
+        },
+        {
+          "id": "Accessori_4",
+          "label": "MF5",
+          "code": "MF5",
+          "description": "MF5 description",
+          "src": [
+            {
+              "asset": "93720/Accessori/MF5_Back_1.webp",
+              "view": "back"
+            },
+            {
+              "asset": "93720/Accessori/MF5_Front_1.webp",
+              "view": "front"
+            },
+            {
+              "asset": "93720/Accessori/MF5_Side_1.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "93720/Accessori/Preview/MF5_Preview.webp"
+        },
+        {
+          "id": "Accessori_5",
+          "label": "MF6",
+          "code": "MF6",
+          "description": "MF6 description",
+          "src": [
+            {
+              "asset": "93720/Accessori/MF6_Back_1.webp",
+              "view": "back"
+            },
+            {
+              "asset": "93720/Accessori/MF6_Front_1.webp",
+              "view": "front"
+            },
+            {
+              "asset": "93720/Accessori/MF6_Side_1.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "93720/Accessori/Preview/MF6_Preview.webp"
+        }
+      ],
+      "hideOnNextSteps": false
+    },
+    {
+      "label": null,
+      "description": null,
+      "id": "fabric",
+      "model_code": "93720",
+      "z-index": 0,
+      "layerType": "fabric",
+      "views": [
+        "back",
+        "front",
+        "side"
+      ],
+      "options": [
+        {
+          "id": "fabric_0",
+          "label": null,
+          "code": "PD00018",
+          "description": null,
+          "src": [
+            {
+              "asset": "93720/Base/PD00018/300_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "93720/Base/PD00018/300_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "93720/Base/PD00018/300_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "93720/BASE/PD00018/Preview/300_Preview.webp"
+        },
+        {
+          "id": "fabric_1",
+          "label": null,
+          "code": "PX01028",
+          "description": null,
+          "src": [
+            {
+              "asset": "93720/Base/PX01028/301_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "93720/Base/PX01028/301_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "93720/Base/PX01028/301_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "93720/BASE/PX01028/Preview/301_Preview.webp"
+        }
+      ],
+      "hideOnNextSteps": true
+    },
+    {
+      "label": "Base",
+      "description": null,
+      "id": "Base",
+      "model_code": "93720",
+      "z-index": 1,
+      "layerType": "fabric-color",
+      "views": [
+        "back",
+        "detail",
+        "front",
+        "side"
+      ],
+      "options": [
+        {
+          "id": "Base_0",
+          "label": "PD00018_300",
+          "code": "PD00018_300",
+          "description": "PD00018_300 description",
+          "src": [
+            {
+              "asset": "93720/Base/PD00018/300_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "93720/Base/PD00018/Ricamo/300_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "93720/Base/PD00018/300_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "93720/Base/PD00018/300_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "93720/Base/PD00018/Preview/300_Preview.webp"
+        },
+        {
+          "id": "Base_1",
+          "label": "PD00018_301",
+          "code": "PD00018_301",
+          "description": "PD00018_301 description",
+          "src": [
+            {
+              "asset": "93720/Base/PD00018/301_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "93720/Base/PD00018/Ricamo/301_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "93720/Base/PD00018/301_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "93720/Base/PD00018/301_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "93720/Base/PD00018/Preview/301_Preview.webp"
+        },
+        {
+          "id": "Base_2",
+          "label": "PD00018_304",
+          "code": "PD00018_304",
+          "description": "PD00018_304 description",
+          "src": [
+            {
+              "asset": "93720/Base/PD00018/304_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "93720/Base/PD00018/Ricamo/304_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "93720/Base/PD00018/304_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "93720/Base/PD00018/304_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "93720/Base/PD00018/Preview/304_Preview.webp"
+        },
+        {
+          "id": "Base_3",
+          "label": "PX01028_301",
+          "code": "PX01028_301",
+          "description": "PX01028_301 description",
+          "src": [
+            {
+              "asset": "93720/Base/PX01028/301_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "93720/Base/PX01028/Ricamo/301_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "93720/Base/PX01028/301_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "93720/Base/PX01028/301_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "93720/Base/PX01028/Preview/301_Preview.webp"
+        }
+      ],
+      "hideOnNextSteps": false
+    }
+  ]
+}

@@ -1,0 +1,1093 @@
+{
+  "views": [
+    {
+      "id": "front",
+      "label": "Front"
+    },
+    {
+      "id": "side",
+      "label": "Side"
+    },
+    {
+      "id": "back",
+      "label": "Back"
+    },
+    {
+      "id": "detail",
+      "label": "Detail"
+    }
+  ],
+  "layers": [
+    {
+      "label": null,
+      "description": null,
+      "id": "fabric",
+      "model_code": "SMC0719",
+      "z-index": 0,
+      "layerType": "fabric",
+      "views": [
+        "back",
+        "front",
+        "side"
+      ],
+      "options": [
+        {
+          "id": "fabric_0",
+          "label": null,
+          "code": "MK00999",
+          "description": null,
+          "src": [
+            {
+              "asset": "SMC0719/Base/MK00999/003_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/003_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/003_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/BASE/MK00999/Preview/003_Preview.webp"
+        },
+        {
+          "id": "fabric_1",
+          "label": null,
+          "code": "MX01046",
+          "description": null,
+          "src": [
+            {
+              "asset": "SMC0719/Base/MX01046/100_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/100_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/100_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/BASE/MX01046/Preview/100_Preview.webp"
+        },
+        {
+          "id": "fabric_2",
+          "label": null,
+          "code": "MX01167",
+          "description": null,
+          "src": [
+            {
+              "asset": "SMC0719/Base/MX01167/002_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MX01167/002_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MX01167/002_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/BASE/MX01167/Preview/002_Preview.webp"
+        }
+      ],
+      "hideOnNextSteps": true
+    },
+    {
+      "label": "Base",
+      "description": null,
+      "id": "Base",
+      "model_code": "SMC0719",
+      "z-index": 1,
+      "layerType": "fabric-color",
+      "views": [
+        "back",
+        "detail",
+        "front",
+        "side"
+      ],
+      "options": [
+        {
+          "id": "Base_0",
+          "label": "MK00999_003",
+          "code": "MK00999_003",
+          "description": "MK00999_003 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MK00999/003_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/Ricamo/003_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/003_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/003_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MK00999/Preview/003_Preview.webp"
+        },
+        {
+          "id": "Base_1",
+          "label": "MK00999_100",
+          "code": "MK00999_100",
+          "description": "MK00999_100 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MK00999/100_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/Ricamo/100_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/100_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/100_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MK00999/Preview/100_Preview.webp"
+        },
+        {
+          "id": "Base_2",
+          "label": "MK00999_111",
+          "code": "MK00999_111",
+          "description": "MK00999_111 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MK00999/111_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/Ricamo/111_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/111_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/111_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MK00999/Preview/111_Preview.webp"
+        },
+        {
+          "id": "Base_3",
+          "label": "MK00999_150",
+          "code": "MK00999_150",
+          "description": "MK00999_150 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MK00999/150_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/Ricamo/150_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/150_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/150_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MK00999/Preview/150_Preview.webp"
+        },
+        {
+          "id": "Base_4",
+          "label": "MK00999_200",
+          "code": "MK00999_200",
+          "description": "MK00999_200 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MK00999/200_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/Ricamo/200_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/200_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/200_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MK00999/Preview/200_Preview.webp"
+        },
+        {
+          "id": "Base_5",
+          "label": "MK00999_300",
+          "code": "MK00999_300",
+          "description": "MK00999_300 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MK00999/300_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/Ricamo/300_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/300_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/300_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MK00999/Preview/300_Preview.webp"
+        },
+        {
+          "id": "Base_6",
+          "label": "MK00999_305",
+          "code": "MK00999_305",
+          "description": "MK00999_305 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MK00999/305_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/Ricamo/305_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/305_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/305_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MK00999/Preview/305_Preview.webp"
+        },
+        {
+          "id": "Base_7",
+          "label": "MK00999_370",
+          "code": "MK00999_370",
+          "description": "MK00999_370 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MK00999/370_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/Ricamo/370_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/370_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/370_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MK00999/Preview/370_Preview.webp"
+        },
+        {
+          "id": "Base_8",
+          "label": "MK00999_470",
+          "code": "MK00999_470",
+          "description": "MK00999_470 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MK00999/470_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/Ricamo/470_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/470_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/470_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MK00999/Preview/470_Preview.webp"
+        },
+        {
+          "id": "Base_9",
+          "label": "MK00999_480",
+          "code": "MK00999_480",
+          "description": "MK00999_480 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MK00999/480_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/Ricamo/480_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/480_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/480_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MK00999/Preview/480_Preview.webp"
+        },
+        {
+          "id": "Base_10",
+          "label": "MK00999_505",
+          "code": "MK00999_505",
+          "description": "MK00999_505 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MK00999/505_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/Ricamo/505_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/505_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/505_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MK00999/Preview/505_Preview.webp"
+        },
+        {
+          "id": "Base_11",
+          "label": "MK00999_610",
+          "code": "MK00999_610",
+          "description": "MK00999_610 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MK00999/610_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/Ricamo/610_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/610_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/610_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MK00999/Preview/610_Preview.webp"
+        },
+        {
+          "id": "Base_12",
+          "label": "MK00999_700",
+          "code": "MK00999_700",
+          "description": "MK00999_700 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MK00999/700_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/Ricamo/700_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/700_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/700_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MK00999/Preview/700_Preview.webp"
+        },
+        {
+          "id": "Base_13",
+          "label": "MK00999_702",
+          "code": "MK00999_702",
+          "description": "MK00999_702 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MK00999/702_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/Ricamo/702_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/702_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/702_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MK00999/Preview/702_Preview.webp"
+        },
+        {
+          "id": "Base_14",
+          "label": "MK00999_745",
+          "code": "MK00999_745",
+          "description": "MK00999_745 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MK00999/745_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/Ricamo/745_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/745_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/745_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MK00999/Preview/745_Preview.webp"
+        },
+        {
+          "id": "Base_15",
+          "label": "MK00999_800",
+          "code": "MK00999_800",
+          "description": "MK00999_800 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MK00999/800_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/Ricamo/800_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/800_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/800_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MK00999/Preview/800_Preview.webp"
+        },
+        {
+          "id": "Base_16",
+          "label": "MK00999_810",
+          "code": "MK00999_810",
+          "description": "MK00999_810 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MK00999/810_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/Ricamo/810_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/810_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/810_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MK00999/Preview/810_Preview.webp"
+        },
+        {
+          "id": "Base_17",
+          "label": "MK00999_900",
+          "code": "MK00999_900",
+          "description": "MK00999_900 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MK00999/900_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/Ricamo/900_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/900_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/900_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MK00999/Preview/900_Preview.webp"
+        },
+        {
+          "id": "Base_18",
+          "label": "MK00999_910",
+          "code": "MK00999_910",
+          "description": "MK00999_910 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MK00999/910_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/Ricamo/910_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/910_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/910_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MK00999/Preview/910_Preview.webp"
+        },
+        {
+          "id": "Base_19",
+          "label": "MK00999_970",
+          "code": "MK00999_970",
+          "description": "MK00999_970 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MK00999/970_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/Ricamo/970_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/970_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MK00999/970_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MK00999/Preview/970_Preview.webp"
+        },
+        {
+          "id": "Base_20",
+          "label": "MX01046_100",
+          "code": "MX01046_100",
+          "description": "MX01046_100 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MX01046/100_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/Ricamo/100_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/100_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/100_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MX01046/Preview/100_Preview.webp"
+        },
+        {
+          "id": "Base_21",
+          "label": "MX01046_110",
+          "code": "MX01046_110",
+          "description": "MX01046_110 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MX01046/110_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/Ricamo/110_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/110_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/110_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MX01046/Preview/110_Preview.webp"
+        },
+        {
+          "id": "Base_22",
+          "label": "MX01046_202",
+          "code": "MX01046_202",
+          "description": "MX01046_202 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MX01046/202_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/Ricamo/202_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/202_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/202_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MX01046/Preview/202_Preview.webp"
+        },
+        {
+          "id": "Base_23",
+          "label": "MX01046_300",
+          "code": "MX01046_300",
+          "description": "MX01046_300 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MX01046/300_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/Ricamo/300_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/300_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/300_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MX01046/Preview/300_Preview.webp"
+        },
+        {
+          "id": "Base_24",
+          "label": "MX01046_320",
+          "code": "MX01046_320",
+          "description": "MX01046_320 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MX01046/320_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/Ricamo/320_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/320_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/320_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MX01046/Preview/320_Preview.webp"
+        },
+        {
+          "id": "Base_25",
+          "label": "MX01046_371",
+          "code": "MX01046_371",
+          "description": "MX01046_371 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MX01046/371_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/Ricamo/371_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/371_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/371_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MX01046/Preview/371_Preview.webp"
+        },
+        {
+          "id": "Base_26",
+          "label": "MX01046_430",
+          "code": "MX01046_430",
+          "description": "MX01046_430 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MX01046/430_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/Ricamo/430_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/430_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/430_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MX01046/Preview/430_Preview.webp"
+        },
+        {
+          "id": "Base_27",
+          "label": "MX01046_501",
+          "code": "MX01046_501",
+          "description": "MX01046_501 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MX01046/501_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/Ricamo/501_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/501_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/501_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MX01046/Preview/501_Preview.webp"
+        },
+        {
+          "id": "Base_28",
+          "label": "MX01046_701",
+          "code": "MX01046_701",
+          "description": "MX01046_701 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MX01046/701_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/Ricamo/701_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/701_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/701_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MX01046/Preview/701_Preview.webp"
+        },
+        {
+          "id": "Base_29",
+          "label": "MX01046_720",
+          "code": "MX01046_720",
+          "description": "MX01046_720 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MX01046/720_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/Ricamo/720_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/720_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/720_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MX01046/Preview/720_Preview.webp"
+        },
+        {
+          "id": "Base_30",
+          "label": "MX01046_740",
+          "code": "MX01046_740",
+          "description": "MX01046_740 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MX01046/740_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/Ricamo/740_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/740_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/740_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MX01046/Preview/740_Preview.webp"
+        },
+        {
+          "id": "Base_31",
+          "label": "MX01046_800",
+          "code": "MX01046_800",
+          "description": "MX01046_800 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MX01046/800_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/Ricamo/800_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/800_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/800_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MX01046/Preview/800_Preview.webp"
+        },
+        {
+          "id": "Base_32",
+          "label": "MX01046_901",
+          "code": "MX01046_901",
+          "description": "MX01046_901 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MX01046/901_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/Ricamo/901_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/901_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/901_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MX01046/Preview/901_Preview.webp"
+        },
+        {
+          "id": "Base_33",
+          "label": "MX01046_950",
+          "code": "MX01046_950",
+          "description": "MX01046_950 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MX01046/950_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/Ricamo/950_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/950_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/950_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MX01046/Preview/950_Preview.webp"
+        },
+        {
+          "id": "Base_34",
+          "label": "MX01046_975",
+          "code": "MX01046_975",
+          "description": "MX01046_975 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MX01046/975_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/Ricamo/975_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/975_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MX01046/975_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MX01046/Preview/975_Preview.webp"
+        },
+        {
+          "id": "Base_35",
+          "label": "MX01167_002",
+          "code": "MX01167_002",
+          "description": "MX01167_002 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MX01167/002_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MX01167/Ricamo/002_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MX01167/002_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MX01167/002_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MX01167/Preview/002_Preview.webp"
+        },
+        {
+          "id": "Base_36",
+          "label": "MX01167_111",
+          "code": "MX01167_111",
+          "description": "MX01167_111 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MX01167/111_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MX01167/Ricamo/111_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MX01167/111_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MX01167/111_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MX01167/Preview/111_Preview.webp"
+        },
+        {
+          "id": "Base_37",
+          "label": "MX01167_320",
+          "code": "MX01167_320",
+          "description": "MX01167_320 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MX01167/320_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MX01167/Ricamo/320_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MX01167/320_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MX01167/320_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MX01167/Preview/320_Preview.webp"
+        },
+        {
+          "id": "Base_38",
+          "label": "MX01167_401",
+          "code": "MX01167_401",
+          "description": "MX01167_401 description",
+          "src": [
+            {
+              "asset": "SMC0719/Base/MX01167/401_Back_0.webp",
+              "view": "back"
+            },
+            {
+              "asset": "SMC0719/Base/MX01167/Ricamo/401_Ricamo.webp",
+              "view": "detail"
+            },
+            {
+              "asset": "SMC0719/Base/MX01167/401_Front_0.webp",
+              "view": "front"
+            },
+            {
+              "asset": "SMC0719/Base/MX01167/401_Side_0.webp",
+              "view": "side"
+            }
+          ],
+          "icon": "SMC0719/Base/MX01167/Preview/401_Preview.webp"
+        }
+      ],
+      "hideOnNextSteps": false
+    }
+  ]
+}
